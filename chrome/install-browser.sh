@@ -7,7 +7,7 @@
 
 
 
-CHROME_VERSION="74.0.3729.169-1"
+CHROME_VERSION="75.0.3770.80-1"
 sudo apt-get install -y apt-transport-https
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee -a /etc/apt/sources.list.d/google-chrome.list
