@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CHROME_DRIVER_VERSION=74.0.3729.6
+CHROME_DRIVER_VERSION=75.0.3770.8
 echo "Using chromedriver version: "$CHROME_DRIVER_VERSION \
 && wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
 && rm -rf /opt/selenium/chromedriver \
