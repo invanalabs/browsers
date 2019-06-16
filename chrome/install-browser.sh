@@ -9,5 +9,5 @@ sudo apt-get update -y
 sudo curl  -H 'Cache-Control: no-cache' -o /google-chrome-stable_{$CHROME_VERSION}_amd64.deb http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_{$CHROME_VERSION}_amd64.deb 
 sudo dpkg -i /google-chrome-stable_{$CHROME_VERSION}_amd64.deb
 if [ $? -gt 0 ]; then
-apt-get -f --force-yes --yes install
+apt-get -f --allow --yes install
 fi
